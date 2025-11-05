@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+}
+.purple {
+    background-color: blueviolet;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: chocolate;  
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "field-1 cat";
+    justify-content: space-between;
+}
+
+
+.group1{
+    grid-area: field-1;
+}
+
+.images{
+    grid-area: cat;
+}
