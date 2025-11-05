@@ -1,0 +1,15 @@
+{
+  "name": "mp-site",
+  "version": "1.0.0",
+  "description": "My own pet-project",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^19.2.0"
+  }
+}
