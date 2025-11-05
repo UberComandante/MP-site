@@ -4,7 +4,7 @@ const button = document.getElementById('loginBut');
 
 
 function output() {
-    pELement.innerText = inputVal.value
+    pELement.innerText = inputVal.value;
 }
 inputVal.oninput = output;
 
