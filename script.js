@@ -20,7 +20,7 @@ color.addEventListener("click", changeBackground);
 const buttonT = document.getElementById('buttonT');
 const area = document.getElementById('testArea');
 
-function test() {
+const prob = function test() {
     area.innerHTML = "Hello Kitty!";
 }
-buttonT.addEventListener("click", test);
+buttonT.addEventListener("click", prob);
