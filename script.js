@@ -16,3 +16,14 @@ function changeBackground() {
     bodyColor.classList.toggle("purple");
 }
 color.addEventListener("click", changeBackground);
+
+
+
+const buttonT = document.getElementById('buttonT');
+const area = document.getElementById('testArea');
+
+function test() {
+    area.innerHTML = "Hello friend!";
+}
+
+buttonT.addEventListener("click", test);
