@@ -5,7 +5,6 @@ const App = () => {
     return (
         <div>
             <React.Fragment>  
-                {/* or -> <></> */}
                 <p>Check this text from the other component:</p>
                 <Text />
             </React.Fragment>
