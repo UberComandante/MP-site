@@ -4,7 +4,8 @@ import Text from "./Text";
 const App = () => {
     return (
         <div>
-            <React.Fragment>
+            <React.Fragment>  
+                {/* or -> <></> */}
                 <p>Check this text from the other component:</p>
                 <Text />
             </React.Fragment>
